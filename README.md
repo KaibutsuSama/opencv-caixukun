@@ -19,9 +19,15 @@ Mac / Clion / Homebrew
 
 # 启动
 
+修改`main.cpp`中的图片路径
+```cpp
+cv::Mat image = cv::imread("/Users/ashe/CLionProjects/open-cv-exmaple/static/image/yoasobi.png"); // 改成你的
+```
+
 ```shell
 brew install cmake
 brew install opencv
 run main.app
 ```
+
 
